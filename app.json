@@ -3,6 +3,7 @@
     "name": "tidebonn",
     "slug": "tidebonn",
     "version": "1.0.0",
+    "owner": "andrew_normann",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "tidebonn"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f6ef27ae-4b26-4eee-afce-73df22988df5"
+      }
     }
   }
 }
